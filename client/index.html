@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js"></script>
+		<title>Express Tutorial</title>
+	</head>
+	<body>
+		<header>
+			<h4>Send your message</h4>
+		</header>
+		<main>
+			<form id="input-form">
+				<div>
+					<label for="name-input">Name: </label>
+					<input id="name-input" name="student-name" type="text" />
+				</div>
+				<div>
+					<label for="email-input">E-mail: </label>
+					<input type="text" id="email-input" name="email" required />
+				</div>
+
+				<textarea
+					id="message-input"
+					name="message"
+					required
+					rows="5"
+					placeholder="Enter your question..."
+				></textarea>
+
+				<button id="submit-btn" type="submit">Send Message!</button>
+			</form>
+		</main>
+	</body>
+</html>
